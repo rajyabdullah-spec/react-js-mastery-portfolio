@@ -12,30 +12,49 @@ The repository is structured to separate exploration projects, formal assignment
 
 ### 📁 01. Course Projects & Learning Experiments
 Incremental applications built chronologically to master component states, lifecycles, and HTTP network clients.
-*   **`01-video-course-app` (User Directory Client):** 
-    *   Demonstrates core knowledge of lifecycle execution via `componentDidMount`[cite: 1].
-    *   Utilizes the **Axios** library to asynchronously fetch live user records (names, emails) from the RESTful `JSONPlaceholder` API[cite: 1].
-    *   Implements basic component abstraction using dynamic title props[cite: 3, 4].
-*   **`02-hacker-news-app` (Live Tech News Search Engine):**
-    *   An advanced implementation showcasing **Server-side Search functionality** using the Hacker News API.
-    *   Enforces strict immutability patterns using the **ES6 Spread Operator (`...`)** to alter complex nested state results without direct mutation.
-    *   Implements **Conditional Rendering (Ternary Operations)** to elegantly swap layouts during active API loading states.
-    *   Enforces runtime interface safety and data contract validity across abstract modules using **`prop-types` validation**.
+* **`01-video-course-app` (User Directory Client):** * Demonstrates core knowledge of lifecycle execution via `componentDidMount`.
+    * Utilizes the **Axios** library to asynchronously fetch live user records (names, emails) from the RESTful `JSONPlaceholder` API.
+    * Implements basic component abstraction using dynamic title props.
+    
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="01-course-projects/01-video-course-app/my-first-app/src/assets/project-demo.gif" alt="User Directory Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
+
+* **`02-hacker-news-app` (Live Tech News Search Engine):**
+    * An advanced implementation showcasing **Server-side Search functionality** using the Hacker News API.
+    * Enforces strict immutability patterns using the **ES6 Spread Operator (`...`)** to alter complex nested state results without direct mutation.
+    * Implements **Conditional Rendering (Ternary Operations)** to elegantly swap layouts during active API loading states.
+    * Enforces runtime interface safety and data contract validity across abstract modules using **`prop-types` validation**.
+    
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="01-course-projects/02-hacker-news-app/src/assets/project-demo.gif" alt="Hacker News Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
 
 ### 📁 02. Assignments
 Rigorous practical implementations built against strict business criteria and real-world user stories.
-*   **`assignment-01` (Custom Styled ToDo App):**
-    *   A responsive task management tracker handling state synchronization across multiple controlled input streams (`taskInput` and `descriptionInput`).
-    *   Features transactional list rendering, structural safety checks (required fields), and state-level array filtering routines on dismiss.
-    *   Features a custom-engineered CSS presentation layer to implement fluid UX hover behaviors and structured card layers.
-*   *`assignment-02` & `assignment-03` (Pending Progression)*
+* **`assignment-01` (Custom Styled ToDo App):**
+    * A responsive task management tracker handling state synchronization across multiple controlled input streams (`taskInput` and `descriptionInput`).
+    * Features transactional list rendering, structural safety checks (required fields), and state-level array filtering routines on dismiss.
+    * Features a custom-engineered CSS presentation layer to implement fluid UX hover behaviors and structured card layers.
+    
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="02-assignments/assignment-01/src/assets/project-demo.gif" alt="ToDo App Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
+
+* *`assignment-02` & `assignment-03` (Pending Progression)*
 
 ### 📁 03. Demo Challenges
 Targeted algorithmic layouts and quick architectural challenges designed to strengthen UI composition.
-*   *`demo-challenge-01`, `02`, & `03` (Pending Progression)*
+* *`demo-challenge-01`, `02`, & `03` (Pending Progression)*
 
 ### 📁 04. Final Capstone
-*   **`main-react-challenge` (Final Course Capstone - Pending)*
+* **`main-react-challenge` (Final Course Capstone - Pending)*
 
 ---
 
