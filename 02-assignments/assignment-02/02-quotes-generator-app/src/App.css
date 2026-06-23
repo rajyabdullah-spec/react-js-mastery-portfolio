@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fa;
+  color: #333;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.app-header {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+
+.app-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.quote-card-wrapper {
+  background: #ffffff;
+  max-width: 750px;
+  width: 100%;
+  padding: 50px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.quote-content-box {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+.quote-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.45rem;
+  line-height: 1.7;
+  color: #2c3e50;
+  margin: 0 0 20px 0;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #7f8c8d;
+  display: block;
+}
+
+
+.btn-new-quote {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+}
+
+.btn-new-quote:hover:not(.disabled) {
+  background-color: #e67e22;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(230, 126, 34, 0.4);
+}
+
+.btn-new-quote:active {
+  transform: translateY(0);
+}
+
+.btn-new-quote.disabled {
+  background-color: #bdc3c7;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+
+.loader-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #7f8c8d;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #f39c12;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: 500;
+}

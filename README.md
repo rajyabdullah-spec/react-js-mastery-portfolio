@@ -61,7 +61,19 @@ Rigorous practical implementations built against strict business criteria and re
     <img src="02-assignments/assignment-01/src/assets/project-demo.gif" alt="ToDo App Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
     </details>
 
-* *`assignment-02` & `assignment-03` (Pending Progression)*
+* **`assignment-02` (Inspirational Quotes Generator):**
+    * An asynchronous dynamic application driven by functional state management (`useState`, `useEffect`) and Axios network integration.
+    * Features robust async state handling (loading/error state boundaries) to optimize client-side performance and prevent concurrent API request flooding.
+    * Enforces pristine code safety by using React-compliant properties (`className` and explicit JSX `onClick` callback streams).
+    * Implements an isolated CSS layout architecture featuring a modern dark presentation header, professional typography weights (`Playfair Display`), and responsive card containers.
+
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="02-assignments/assignment-02/02-quotes-generator-app/src/assets/project-demo.gif" alt="Quotes Generator Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
+
+* *`assignment-03` (Pending Progression)*
 
 ### 📁 03. Demo Challenges
 Targeted algorithmic layouts and quick architectural challenges designed to strengthen UI composition.
