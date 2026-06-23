@@ -2,7 +2,7 @@
 
 Welcome to my central React.js development track repository. This comprehensive portfolio documents my structural learning journey, evolutionary practices, and architectural milestones in building scalable user interfaces during the Matrix Master Full-Stack Web Development Bootcamp.
 
-This track showcases my transition from traditional state management to advanced server-side data operations, custom component engineering, and functional data flows.
+This track showcases my transition from traditional configuration management to advanced server-side data operations, custom component engineering, and functional data flows.
 
 ---
 
@@ -11,18 +11,32 @@ This track showcases my transition from traditional state management to advanced
 The repository is structured to separate exploration projects, formal assignments, and advanced technical challenges systematically:
 
 ### 📁 01. Course Projects & Learning Experiments
-Incremental applications built chronologically to master component states, lifecycles, and HTTP network clients.
-* **`01-video-course-app` (User Directory Client):** * Demonstrates core knowledge of lifecycle execution via `componentDidMount`.
-    * Utilizes the **Axios** library to asynchronously fetch live user records (names, emails) from the RESTful `JSONPlaceholder` API.
-    * Implements basic component abstraction using dynamic title props.
+Incremental applications built chronologically to master component states, lifecycles, Hooks, and HTTP network clients.
+
+* **`01-basic-boilerplate-app` (Core Layout Framework):**
+    * Demonstrates core knowledge of structural React architecture and foundational component initialization.
+    * Implements isolated component abstraction using clean, separated CSS layout strategies to optimize presentation layers.
     
     <details>
     <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
     <br>
-    <img src="01-course-projects/01-video-course-app/my-first-app/src/assets/project-demo.gif" alt="User Directory Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    <img src="01-course-projects/01-video-course-app/01-basic-boilerplate-app/src/assets/project-demo.gif" alt="Basic Boilerplate Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
     </details>
 
-* **`02-hacker-news-app` (Live Tech News Search Engine):**
+* **`02-countries-and-form-app` (World Countries & User Setup Hub):**
+    * A high-fidelity application mastering functional hooks (`useState` and `useEffect`) and asynchronous network operations.
+    * Utilizes the **Axios** library to fetch live global data and dynamic flags from an external RESTful API without CORS conflicts.
+    * Integrates interactive state behaviors, showing detailed data cards and external reference anchors instantly when a country is selected.
+    * Implements a **Controlled Form** layout for user credentials (username and email address) with an instantaneous interactive Live Preview box.
+    * Features an optimized presentation layer utilizing an isolated vertical scrollable container (`max-height` and `overflow-y`) for improved UI/UX data scanning.
+    
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="01-course-projects/01-video-course-app/02-countries-and-form-app/src/assets/project-preview.gif" alt="Countries & Form Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
+
+* **`03-hacker-news-app` (Live Tech News Search Engine - Next Milestone):**
     * An advanced implementation showcasing **Server-side Search functionality** using the Hacker News API.
     * Enforces strict immutability patterns using the **ES6 Spread Operator (`...`)** to alter complex nested state results without direct mutation.
     * Implements **Conditional Rendering (Ternary Operations)** to elegantly swap layouts during active API loading states.
@@ -62,9 +76,9 @@ Targeted algorithmic layouts and quick architectural challenges designed to stre
 
 Throughout this track, the following computer science and software engineering principles are strictly maintained:
 1.  **Immutability & Pure Functions:** Complete avoidance of state transformation mutations.
-2.  **Type Safety:** Component defensive programming via strict explicit `propTypes` checking.
-3.  **UI/UX Intent:** Designing fluid feedback indicators (loaders, empty states, and focus states) to guarantee pristine user journeys.
-4.  **Component Modularization:** Decoupling bloated structures into specialized Single-Responsibility components.
+2.  **Type Safety & Controlled Data:** Handling stateful data input streams strictly through React's state management lifecycle to ensure a single source of truth.
+3.  **UI/UX Intent:** Designing fluid feedback indicators (loaders, responsive scrolling areas, and focus states) to guarantee pristine user journeys.
+4.  **Component Modularization:** Decoupling bloated structures into specialized Single-Responsibility components within clear directory trees.
 
 ---
 
