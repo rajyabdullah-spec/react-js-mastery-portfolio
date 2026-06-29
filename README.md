@@ -73,7 +73,17 @@ Rigorous practical implementations built against strict business criteria and re
     <img src="02-assignments/assignment-02/02-quotes-generator-app/src/assets/project-demo.gif" alt="Quotes Generator Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
     </details>
 
-* *`assignment-03` (Pending Progression)*
+* **`assignment-03` (The Timeline Engine):**
+    * A high-fidelity single-page engine managing nested relational data models through advanced client-side state handling.
+    * Implements an architecture utilizing the **React Context API** for globally accessible data tracking, managing one-to-many relationships between timeline entries and comments.
+    * Enforces precise bidirectional chronologic data streams: main entries are structurally ordered by recent timestamps, while sub-level community feedback flows sequentially from oldest to newest.
+    * Features an enterprise-grade Premium Dark/Soft UI presentation layer built with micro-interactions, responsive form focus parameters, and optimized layout boundaries.
+
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="02-assignments/assignment-03/03-the-timeline-app/src/assets/project-preview.gif" alt="The Timeline Engine Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
 
 ### 📁 03. Demo Challenges
 Targeted algorithmic layouts and quick architectural challenges designed to strengthen UI composition.
