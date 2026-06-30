@@ -87,7 +87,18 @@ Rigorous practical implementations built against strict business criteria and re
 
 ### 📁 03. Demo Challenges
 Targeted algorithmic layouts and quick architectural challenges designed to strengthen UI composition.
-* *`demo-challenge-01`, `02`, & `03` (Pending Progression)*
+* **`demo-challenge-01` (Premium Music Engine):**
+    * Asynchronous application capturing complex metadata query strings, interacting with the real-time **Apple iTunes Search API Engine**.
+    * Features structural dynamic data list mapping accompanied by rich responsive media covers and precise execution logic parameters.
+    * Enforces controlled form state submission behaviors to orchestrate clean client-side filter lifecycles.
+    
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="03-demo-challenges/demo-challenge-01/src/assets/project-preview.gif" alt="Premium Music Engine Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
+
+* *`demo-challenge-02` & `03` (Pending Progression)*
 
 ### 📁 04. Final Capstone
 * **`main-react-challenge` (Final Course Capstone - Pending)*
