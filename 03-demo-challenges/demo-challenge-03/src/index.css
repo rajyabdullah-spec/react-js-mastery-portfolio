@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}

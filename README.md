@@ -110,10 +110,20 @@ Targeted algorithmic layouts and quick architectural challenges designed to stre
     <img src="03-demo-challenges/demo-challenge-02/src/assets/demo-preview.gif" alt="Reddit Feed Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
     </details>
 
-* *`demo-challenge-03` (Pending Progression)*
+* **`demo-challenge-03` (LinkedIn Wireframe Navigation App):**
+    * A multipage SPA implementing precise route structure and state synchronization according to low-fidelity UI wireframes.
+    * Built using **React Router DOM v6** featuring `BrowserRouter`, client-side navigation handlers, and `ProtectedRoute` guards for route security.
+    * Features global state orchestration via **React Context API (`AuthContext`)** to handle authentication state and cross-component dynamic profile selection.
+    * Implements three core views matching structural design patterns: Home authentication portal (`/`), Members list directory (`/members`), and detailed Member Profile view (`/profile`).
+
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="03-demo-challenges/demo-challenge-03/src/assets/demo-preview.gif" alt="LinkedIn Wireframe App Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
 
 ### 📁 04. Final Capstone
-* **`main-react-challenge` (Final Course Capstone - Pending)*
+* **`main-react-challenge` (Final Course Capstone - Pending)**
 
 ---
 
