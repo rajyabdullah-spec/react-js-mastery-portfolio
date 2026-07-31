@@ -98,7 +98,19 @@ Targeted algorithmic layouts and quick architectural challenges designed to stre
     <img src="03-demo-challenges/demo-challenge-01/src/assets/project-preview.gif" alt="Premium Music Engine Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
     </details>
 
-* *`demo-challenge-02` & `03` (Pending Progression)*
+* **`demo-challenge-02` (Reddit Feed & Auto-Sorting Engine):**
+    * A dynamic social feed web application featuring instant community posting, persistent storage, and real-time upvote auto-sorting logic.
+    * Implements client-side state persistence using **Browser LocalStorage** and `useEffect` triggers to preserve user postings and upvote metrics across page sessions.
+    * Features an automated array sorting algorithm (`Array.prototype.sort`) that reorganizes community posts dynamically in real-time, placing the highest-voted items at the top of the feed.
+    * Designed with a modern, responsive UI layer featuring subtle card micro-interactions, interactive voting badges, input character counting, and post deletion capabilities.
+
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="03-demo-challenges/demo-challenge-02/src/assets/demo-preview.gif" alt="Reddit Feed Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
+
+* *`demo-challenge-03` (Pending Progression)*
 
 ### 📁 04. Final Capstone
 * **`main-react-challenge` (Final Course Capstone - Pending)*
@@ -122,14 +134,15 @@ To explore or run any specific app or assignment locally, ensure you have [Node.
 ```bash
 # Clone the repository
 git clone https://github.com/rajyabdullah-spec/react-js-mastery-portfolio.git
-# Navigate into the specific directory, for example:
-cd react-js-mastery-portfolio/02-assignments/assignment-01
+
+# Navigate into any project directory, for example:
+cd react-js-mastery-portfolio/03-demo-challenges/demo-challenge-02
 
 # Install architectural dependencies
 npm install
 
-# Initialize local Webpack development server
-npm start
+# Initialize local development server (Use 'npm run dev' for Vite projects, or 'npm start' for CRA)
+npm run dev
 ```
 ---
 
