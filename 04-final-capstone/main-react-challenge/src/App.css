@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+/* =========================================
+   1. GLOBAL RESET
+   ========================================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  background: #090d16;
+  color: #f1f5f9;
+}
+
+/* =========================================
+   2. MAIN LAYOUT
+   ========================================= */
+#root {
+  display: block;
+  padding: 50px 20px;
+}
+
+.page-wrapper {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 36px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 16px;
+}
+
+.page-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.system-message {
+  text-align: center;
+  padding: 40px;
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+/* =========================================
+   3. UNIFIED BUTTONS
+   ========================================= */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: #0369a1;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 6px;
+  background-color: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  color: #ffffff;
+  background-color: #0284c7;
+  border-color: #0284c7;
+}
+
+.btn-danger {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-danger:hover {
+  background-color: #ef4444;
+  color: #ffffff;
+  border-color: #ef4444;
+}
+
+/* =========================================
+   4. STRICT FORM LAYOUT
+   ========================================= */
+.product-form {
+  display: block;
+  width: 100%;
+  background: #0b0f19;
+  padding: 28px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  display: block;
+  width: 100%;
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  color: #f8fafc;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input {
+  height: 44px;
+  padding: 0 16px;
+}
+
+.form-group textarea {
+  height: 100px;
+  padding: 12px 16px;
+  resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] { -moz-appearance: textfield; }
+
+.form-actions {
+  margin-top: 12px;
+}
+
+/* =========================================
+   5. TABLE & DETAILS CARDS
+   ========================================= */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #0b0f19;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  box-shadow: 0 0 0 1px #1f2937;
+}
+
+.products-table th, 
+.products-table td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid #1f2937;
+  vertical-align: middle;
+}
+
+.products-table th {
+  background-color: #131b2e;
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.products-table td {
+  font-size: 0.95rem;
+}
+
+.products-table tr:last-child td {
+  border-bottom: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Flexbox Wrapper Inside TD (Fixes Right Alignment & Border Connection) */
+.table-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.details-card {
+  background: #0b0f19;
+  padding: 28px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-bottom: 24px;
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.detail-row:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #64748b;
+  min-width: 120px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.detail-value {
+  font-weight: 500;
+}
+
+/* =========================================
+   6. BOTTOM NAVIGATION
+   ========================================= */
+.nav-footer {
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid #1f2937;
+}

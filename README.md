@@ -123,7 +123,18 @@ Targeted algorithmic layouts and quick architectural challenges designed to stre
     </details>
 
 ### 📁 04. Final Capstone
-* **`main-react-challenge` (Final Course Capstone - Pending)**
+* **`main-react-challenge` (Product Management Dashboard - Full CRUD Architecture):**
+    * A high-performance single-page CRUD dashboard engineered for full lifecycle product administration (Create, Read, Update, Delete).
+    * Powered by the **React Context API** for global state orchestration, eliminating prop drilling and maintaining a unified central source of truth.
+    * Integrated with **React Router DOM v6** to provide client-side SPA route navigation (`/products`, `/products/new`, `/products/show/:id`, and `/products/edit/:id`).
+    * Built with a reusable shared form component architecture (`ProductForm.jsx`) enforcing strict input control, validation boundaries, and layout height consistency.
+    * Features a pixel-perfect, premium dark-mode presentation layer (`#090d16` canvas) utilizing strict `block` container enforcement, custom pill-style CTA buttons, and responsive tabular data cards with right-aligned action handlers.
+
+    <details>
+    <summary>🎬 <b>Click to View Project Demo Execution</b></summary>
+    <br>
+    <img src="04-final-capstone/main-react-challenge/src/assets/demo-preview.gif" alt="Product Management Dashboard Demo" width="100%" style="border-radius: 10px; border: 1px solid #ddd;">
+    </details>
 
 ---
 
@@ -145,8 +156,8 @@ To explore or run any specific app or assignment locally, ensure you have [Node.
 # Clone the repository
 git clone https://github.com/rajyabdullah-spec/react-js-mastery-portfolio.git
 
-# Navigate into any project directory, for example:
-cd react-js-mastery-portfolio/03-demo-challenges/demo-challenge-02
+# Navigate into the final capstone directory:
+cd react-js-mastery-portfolio/04-final-capstone/main-react-challenge
 
 # Install architectural dependencies
 npm install
